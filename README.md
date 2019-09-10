@@ -60,6 +60,7 @@ For analog, you can use range from 0 to 255 to represent from low to high (8 bit
 ## Part F. FRANKENLIGHT!!!
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
+[schematic](//github.com/dlydb/IDD-Fa18-Lab1/blob/master/part_f.jpg)
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 Yes. There is a microcontroller power with a USB input and read from a touch pad and send output signal to the LED with color and brightness of the light. The "computer" take input signal and control the output with input signal.
