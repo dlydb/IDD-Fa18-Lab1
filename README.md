@@ -21,14 +21,19 @@ Press the push buttom.
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
 digitalWrite(LED_BUILTIN, HIGH); (make the LED on)
+
 **b. What line(s) of code do you need to change to change the rate of blinking?**
 delay(1000); (for both on and off time)
+
 **c. What circuit element would you want to add to protect the board and external LED?**
  resistor
+ 
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
 15 ms
+
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 [blink code](//github.com/dlydb/IDD-Fa18-Lab1/blob/master/part_c_e.ino)
+
 
 ### 2. Blink your LED
 
