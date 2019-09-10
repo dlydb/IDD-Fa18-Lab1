@@ -4,7 +4,7 @@
 
 ## Part A. Set Up a Breadboard
 
-[a photo of breadboard setup](//https://github.com/dlydb/IDD-Fa18-Lab1/blob/master/part_a.jpg)
+[a photo of breadboard setup](//github.com/dlydb/IDD-Fa18-Lab1/blob/master/part_a.jpg)
 
 
 ## Part B. Manually Blink a LED
@@ -28,13 +28,13 @@ delay(1000); (for both on and off time)
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
 15 ms
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
-[blink code](//https://github.com/dlydb/IDD-Fa18-Lab1/blob/master/part_c_e.ino)
+[blink code](//github.com/dlydb/IDD-Fa18-Lab1/blob/master/part_c_e.ino)
 
 ### 2. Blink your LED
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-[video](//https://youtu.be/HSp0EdomSaQ)
+[video](//youtu.be/HSp0EdomSaQ)
 
 
 ## Part D. Manually fade an LED
@@ -66,4 +66,4 @@ Yes, there is. The information is stored in the capacitors to store the previous
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 The device is a desk lamp, so the most convinent way is to connect the LED to the output of the wire that the LED is in parallel with the LED from the lamp. 
 ### 3. Build your light!
-[video](//https://www.youtube.com/watch?v=Injl1d9Uwmw&feature=youtu.be)
+[video]()
