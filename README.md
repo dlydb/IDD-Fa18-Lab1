@@ -51,6 +51,7 @@ Yes. Because there is a 220 ohm protect resistor connected to LED.
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
 Change the led pin to pin 11.
+
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 Write the analog signal to the pin (from 0 to 255).
 For digital, you can only use 0 and 1 for high and low (1 bit). 
@@ -62,13 +63,18 @@ For analog, you can use range from 0 to 255 to represent from low to high (8 bit
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 Yes. There is a microcontroller power with a USB input and read from a touch pad and send output signal to the LED with color and brightness of the light. The "computer" take input signal and control the output with input signal.
+
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
 Yes. The sensors are used to check if the buttom has been touched or not. The sensor will convey the signal to the microcontroller to tell it if the buttom is touched or not, for example, it may tell the microcontroller low when not touched, but when someone touched the touch pad, it will tell the controller that the voltage is high.  
+
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
 The device uses a USB as power supple. Yes. The chip transfers input from USB to power and ground. The system uses 3.3V as input voltage.
+
 **d. Is information stored in your device? Where? How?**
 Yes, there is. The information is stored in the capacitors to store the previous setting, such as color and brightness of last use. 
+
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 The device is a desk lamp, so the most convinent way is to connect the LED to the output of the wire that the LED is in parallel with the LED from the lamp. 
+
 ### 3. Build your light!
-[video]()
+[video](//www.youtube.com/watch?v=9yAfd1E-7Lg)
